@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex{
+            width: 600px;
+            height: 600px;
+            background-color: #aaa;
+            display: flex;
+        }
+        .item1{
+            width: 0;
+            height: 100px;
+            background-color: #f00;
+            margin: 3px;
+        }
+        .item1{
+            flex-grow: 1;
+
+        }
+        .item2{
+            flex-grow: 2;
+        }
+        .item3{
+            flex-grow: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="item item1">1</div>
+        <div class="item item1">2</div>
+        <div class="item item1">3</div>
+    </div>
+</body>
+</html>
