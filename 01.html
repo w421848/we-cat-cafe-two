@@ -1,37 +1,238 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif+TC:wght@400;600&display=swap"
+        rel="stylesheet">
     <style>
-        h2{
-            font-size: 100px;
-            font-family: sans-serif;
-            background-image: linear-gradient(to right, red, yellow);
-
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        .box-green{
-            background-color: blueviolet;
-            background-image: linear-gradient(to bottom,rgba(255,255,255,0.8),transparent);
-            width: 300px;
-            height: 300px;
+        body {
+            background: lightgray;
+            font-family: 'Montserrat', 'Noto Serif TC', serif;
+            font-size: 14px;
+            line-height: 2;
+            letter-spacing: 1.4px;
         }
-       
 
+        .btn {
+            padding: 10px 20px;
+            background-color: #5F4343;
+            color: white;
+            text-decoration: none;
+        }
+
+        .rounded {
+            border-radius: 22px;
+        }
+
+        .mb-20 {
+            margin-bottom: 20px;
+        }
+
+        .ls-30 {
+            letter-spacing: 7.2px;
+        }
+
+        .text-white {
+            color: white;
+        }
+
+        .text-primary {
+            color: #9A6E6E;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .space-between {
+            justify-content: space-between;
+        }
+
+        .flex-start {
+            justify-content: flex-start;
+        }
+
+        .flex-end {
+            justify-content: flex-end;
+        }
+
+
+        .container {
+            width: 1200px;
+            margin: auto;
+        }
+
+        .vh-90 {
+            height: 90vh;
+        }
+
+        .w-50 {
+            width: 50%;
+        }
+
+        .w-70 {
+            width: 70%;
+        }
+
+        .w-100 {
+            width: 100%;
+        }
+
+        .main-section::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            width: 100%;
+            height: 50%;
+            background-color: #3B3B3B;
+        }
+
+
+        .section,
+        .bg-section {
+            /* border:1px solid red; */
+            position: relative;
+            padding: 40px 0;
+        }
+
+        .section::before {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            width: 30%;
+            height: 100%;
+            background-color: white;
+        }
+
+        .bg-section::before {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: -1;
+            width: 80%;
+            height: 100%;
+        }
+
+        .bg-section.bg-primary::before {
+            background-color: #5F4343;
+        }
+
+        .bg-section.bg-black::before {
+            background-color: #3B3B3B;
+        }
+
+        .bg-section.right::before {
+            right: 0;
+        }
+
+        .bg-section.left::before {
+            left: 0;
+        }
+
+        header {
+            background-color: white;
+            ;
+        }
     </style>
 </head>
+
 <body>
-    <img src="./img/23889694_s 1 (1).png" alt="">
+    <section class="vh-90 main-section mb-20">
+        <header></header>
+    </section>
+    <section class="bg-section bg-primary right">
+        <div class="container flex flex-end">
+            <div class="w-70">
+                <h1 class="text-white mb-20">最新消息</h1>
+                <div class="flex space-between">
+                    <div class="col-4">
+                        <img src="https://placehold.co/230x300" alt="" class="w-100">
+                        <p class="title text-white">書展資訊</p>
+                        <p class="date text-white">2023.07.16</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://placehold.co/230x300" alt="" class="w-100">
+                        <p class="title text-white">書展資訊</p>
+                        <p class="date text-white">2023.07.16</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://placehold.co/230x300" alt="" class="w-100">
+                        <p class="title text-white">書展資訊</p>
+                        <p class="date text-white">2023.07.16</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <h2>
-        AMOS CSS
-    </h2>
+    </section>
 
-    <div class="box-green"></div>
+    <section class="section left">
+        <div class="container flex flex-end">
+            <div class="w-70">
+                <div class="flex space-between">
+                    <div class="w-50">
+                        <h1 class="text-primary mb-20">關於我們的故事 </h1>
+                        <p class="mb-20">
+                            我們是一間小型二手書店和貓咪相互結合的咖啡廳 <br>
+                            主要的理念是希望客人在閱讀或休息的同時，<br>
+                            也能與猫咪們相互陪伴的地方.....
+                        </p>
+                        <a href="#" class="btn rounded">更多請看</a>
+                    </div>
+                    <img src="https://placehold.co/455x432" alt="" class="w-50">
+
+                    <div class="flex space-between">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="bg-section bg-black right">
+        <div class="container flex flex-end">
+            <div class="w-70">
+                <h1 class="text-white mb-20">最新消息</h1>
+                <div class="flex space-between">
+                    <div class="col-4">
+                        <img src="https://placehold.co/230x300" alt="" class="w-100">
+                        <p class="title text-white">書展資訊</p>
+                        <p class="date text-white">2023.07.16</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://placehold.co/230x300" alt="" class="w-100">
+                        <p class="title text-white">書展資訊</p>
+                        <p class="date text-white">2023.07.16</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://placehold.co/230x300" alt="" class="w-100">
+                        <p class="title text-white">書展資訊</p>
+                        <p class="date text-white">2023.07.16</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
 </body>
+
 </html>
