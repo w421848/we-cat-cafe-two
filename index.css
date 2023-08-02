@@ -361,27 +361,154 @@ margin-left: auto;
 .gold-flex{
     min-width: 1200px;
     position: relative;
+    margin-top: 50px;
+
 
 }
 .gold-flex::before{
     content: '';
     position: absolute;
-    top: 0;
+    top: -50px;
     right: 0;
     z-index: -1;
     width: 45%;
-    height: 600px;
+    height: 660px;
     background-color: #3B3B3B;
     margin-top: 20px;
 }
+
 .fiex-apple{
-    width: 1200px;
+    width: 100%;
    
 }
 .flex-jjc{
-   width: 300px;
+    margin-left: auto;
+    margin-right: 150px;
+    width: 400px;
+    display: block;
 
-    margin-left: auto; 
- 
-   
+    /* border: 5px solid #e11313; */
+}
+.flex-jjc h1{
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+.flex-jjc p{
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.flex-imge{
+display: flex;
+margin: auto;
+margin-top: 30px;
+width: 770px;
+}
+.flex-imge img{
+    margin: 10px;
+}
+
+.fled-wed a{
+display: flex;
+margin-left: auto;
+margin-right:350px;
+margin-top: 15px;
+width: 120px;
+padding: 10px 20px;
+/* vertical-align: auto; */
+background-color: #A0D65A;
+border-radius: 22px;
+text-decoration: none;
+color:#3B3B3B;
+font-weight:bold;
+}
+
+.flex-secito{
+width: 100%;
+position: relative;
+margin-top: 20px;
+}
+.flex-secito::before{
+    content: '';
+    position: absolute;
+    top: -20;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 800px;
+    background-color: #5F4343;
+    
+}
+
+.flex-vvvo{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.solew{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px,0px;
+    text-align: center;
+    
+}
+
+.solew img{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.solew h2{
+  margin-top: 20px;
+  color: #FFFFFF;
+  font-size: 2.0em;
+}
+
+.howq{
+    margin-left: 190px;
+   margin-top: 50px;
+   color: #FFFFFF;
+}
+.flex-fkw{
+    margin-left: 190px;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+.god-flee p{
+    margin-left: 190px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+.mom-fee{
+    margin-left: 190px;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+.mn-89{
+    margin-left: 190px;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+.flex-how{
+    padding: 40px 0px;
+    position: relative;
+    
+}
+.flex-how::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0px;
+    z-index: -1;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    margin-top: 43px;
+}
+
+.vloo-11{
+    width: 1200px;
+    margin: auto;
+
 }
