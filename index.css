@@ -302,6 +302,7 @@ position: relative;
 }
 .mb-20{
     margin-bottom: 20px;
+    font-weight:bold;
 }
 .text-primary  {
     color: #9A6E6E;
@@ -511,4 +512,153 @@ margin-top: 20px;
     width: 1200px;
     margin: auto;
 
+}
+.e-68 img{
+display: block;
+margin-bottom: 20px;
+
+}
+.e-68{
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 270px;
+    
+}
+.flew-www{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.flex-imga img{
+    display: block;
+    margin: 5px;
+}
+.flex-imga{
+    display: flex;
+    margin-left: 750px;
+}
+.fffffda{
+    margin-bottom: 20px;
+    color: rgb(154, 110, 110);
+    font-size: 1.5em;
+    font-weight:bold;
+}
+.mc-34{
+    font-weight:bold;
+    margin-bottom: 20px
+}
+
+.ntr-dsa{
+    padding: 10px 20px;
+    background-color: rgb(95, 67, 67);
+    color: white;
+    text-decoration: none;
+    border-radius: 22px;
+    margin-bottom: 90px;
+}
+.flex-end-1{
+    position: relative;
+    padding: 40px 0;
+}
+.flex-end-1::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    width: 70%;
+    height: 100%;
+    background-color: #3B3B3B;
+}
+.doss-02{
+    min-width: 1200px;
+     margin: auto;
+     margin-left: 220px;
+    display: flex;
+  
+    
+}
+.sold-302{
+    margin-right: auto;
+    
+}
+.flex-pqww{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: fit-content;
+}
+.xyfff-2{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.xyfff-2 h1{
+    
+margin-bottom: 10px;
+color: rgb(255, 255, 255);
+font-size: 1.5em;
+}
+.xyfff-2 p {
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.xyfff-2 img{
+    margin-bottom: 20px;
+    
+}
+.xy-22{
+    margin: 20px;
+    position: relative;
+}
+.wa-23{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: #A0D65A;
+    position: absolute;
+    bottom: 38px;
+    right: -25px;
+    border-radius: 99em;
+}
+.wa-23 img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.titka{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight:bold;
+}
+.data{
+    color: #B4B4B4;
+}
+.end-what{
+    position: relative;
+    padding: 40px 0;
+}
+.end-what::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0px;
+    z-index: -1;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    
+}
+.ff-za img{
+
+}
+.dos-12{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.emd{
+    width: 100%;
+    height: 500px;
+    background-color: #3B3B3B;
 }
