@@ -650,15 +650,35 @@ font-size: 1.5em;
     
 }
 .ff-za img{
+display: inline-block;
+margin: 0px 10px;
 
+}
+.fkd-33{
+    display: inline-block;
+    width: fit-content;
+    position: relative;
+    margin-top: -20px;
+    
+}
+.ff-za{
+    /* margin-top: 45px;
+    margin-right: 50px; */
+    position: absolute;
+    bottom: -20px;;
+    
 }
 .dos-12{
     margin: auto;
     display: flex;
     justify-content: center;
+    width: 700px;
+    line-height: 5;
+   
 }
 .emd{
     width: 100%;
     height: 500px;
     background-color: #3B3B3B;
+    
 }
