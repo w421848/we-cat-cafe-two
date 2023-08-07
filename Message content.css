@@ -20,7 +20,7 @@ body {
     top: 0;
     z-index: -1;
     width: 100%;
-    height: 50%;
+    height: 30%;
     background-color: #3B3B3B;
 }
 .mb-20 {
@@ -77,131 +77,70 @@ body {
     font-weight: 900;
     
 }
-.flex-weew{
-    min-width: 1200px;
+.flex-tta{
+    width: 100%;
+ 
 }
-.flex-root{
-    display: flex;
-    justify-content: center ;
-    justify-content: space-around;
-    margin-top: 50px;
-}
-.hssd-43{
-    margin-left: 80px;
-    margin-top: 10px;
-}
-.hssd-43 h1{
-    color: #D9D9D9;
-    font-size: 1.6em;
-    text-align: center;
-}
-.hssd-43 p{
-    color: #D9D9D9;
-    font-size: 0.5em;
-}
-.gold-443{
-    margin-top: 10px;
-}
-.gold-443 p{
-    color: #D9D9D9;
-    font-size: 1.0em;
-    letter-spacing: 0.5em;
-}
-.hook-pade{
-    min-width: 1200px;
-
-}
-.fleek{
+.klex-ee{
     display: flex;
     justify-content: center;
-    justify-content: space-around;
     margin-top: 200px;
 }
-.dody{
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 60px;
-}
-.dody p {
-    font-size: 1.0em;
-    letter-spacing: 0.5em;
-}
-.flex-dod{
-    min-width: 1200px;
-    
+.sold-eok a{
+display: flex;
+margin-left: 50px;
+text-decoration: none;
+color: #D9D9D9;
+font-weight:bolder
 
 }
-.flex-dod{
-    width: 1000px;
-    height: 3px;
-    background-color: #3B3B3B;
-    margin-top: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.catone{
-    width: 100%;
-    height: 430px;
-    /* background-color: #dd3d3d; */
-    margin-top: 100px;
-    display: flex;
-   justify-content: center;
-
+.sold-eok h1{
+text-decoration: none;
+color: #D9D9D9;
+margin-left: 50px;
+font-size: 35px;
+font-weight:bolder
 
 }
-
-.qaws{
-    width: fit-content;
-    height: fit-content;
-    margin: auto;
-    margin: 20px;
-    text-align: center;
-    
-    
-
-    
-  
-}
-
-.iiww{
-
-    width: fit-content;
-    height: fit-content;
-
+.sold-eok h2{
+color: #D9D9D9;
+font-size: 15px;
+margin-left: 50px;
+margin-bottom: 10px;
+font-weight:bolder
 
 }
-.iiww img{
-    width: 100%;
-
+.sold-eok p{
+    color: #D9D9D9;
+margin-left: 50px;
+font-size: 15px;
+font-weight:bolder
+}
+.sold-eok img{
+    margin-left: -5px;
 }
 
-.ddwe{
-    width: 100%;
-    height: 90px;
+.sold-eok{
+    width: 395px;
+    height: 1010px;
     background-color: #5F4343;
-    position: relative;
-    top: -20px;
-   
-}
-.ddwe a{
-   position: relative;
-   bottom: -30px;
-   text-decoration: none;
-   outline:none;
-   color: #FFFFFF;
-   font-size: 20px;
-
-} 
-
-.catonewww{
-    width: 100%;
-    height: 430px;
-    /* background-color: #dd3d3d; */
-    margin-top: 30px;
-    display: flex;
-   justify-content: center;
+    margin-left: 150px;
+    border-radius: 10px;
 
 }
+.flex-kje img{
+display: flex;
+}
+
+.dod-ee h1{
+    color: #3B3B3B;
+    font-size: 30px;
+}
+.dod-ee p{
+    margin: 10px;
+    font-size: 15px;
+}
+
 .ff-za img{
     display: inline-block;
     margin: 0px 10px;
@@ -250,3 +189,4 @@ body {
         background-color: #3B3B3B;
         
     }
+

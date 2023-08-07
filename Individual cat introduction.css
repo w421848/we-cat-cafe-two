@@ -20,7 +20,7 @@ body {
     top: 0;
     z-index: -1;
     width: 100%;
-    height: 50%;
+    height: 35%;
     background-color: #3B3B3B;
 }
 .mb-20 {
@@ -77,54 +77,57 @@ body {
     font-weight: 900;
     
 }
-.flex-weew{
+.nim-ood{
     min-width: 1200px;
+    margin-top: 60px;
 }
-.flex-root{
-    display: flex;
-    justify-content: center ;
-    justify-content: space-around;
-    margin-top: 50px;
+.sold-33{
+    margin-left: 300px;
+    width: 300px;
 }
-.hssd-43{
-    margin-left: 80px;
-    margin-top: 10px;
-}
-.hssd-43 h1{
+.sold-33 h1{
     color: #D9D9D9;
-    font-size: 1.6em;
+    font-size: 1.8em;
     text-align: center;
+    margin-top: 120px;
 }
-.hssd-43 p{
-    color: #D9D9D9;
-    font-size: 0.5em;
+.hold-erw{
+    width: 100%;
 }
-.gold-443{
-    margin-top: 10px;
-}
-.gold-443 p{
-    color: #D9D9D9;
-    font-size: 1.0em;
-    letter-spacing: 0.5em;
-}
-.hook-pade{
-    min-width: 1200px;
-
-}
-.fleek{
+.kood-re{
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    margin-top: 200px;
+    margin-top: 90px;
 }
-.dody{
-    margin-top: auto;
+.sole-root{
     margin-bottom: auto;
-    margin-right: 60px;
+    margin-top: auto;
 }
-.dody p {
+.sole-root h1{
+    color: #3B3B3B;
+    font-size: 2.8em;
+    font-weight:bold;
+
+}
+.sole-root h2{
+    color: #3B3B3B;
+    font-size: 1.2em;
+    font-weight:bold;
+    
+}
+.flex-ttl h1{
+margin-bottom: 5px;
+}
+.flex-ttl h2{
+    margin-bottom: 50px; 
+}
+.dod-332 p{
+    margin-bottom: 20px;
+    color: #3B3B3B;
     font-size: 1.0em;
-    letter-spacing: 0.5em;
+    font-weight:bold;
+    
 }
 .flex-dod{
     min-width: 1200px;
@@ -135,73 +138,32 @@ body {
     width: 1000px;
     height: 3px;
     background-color: #3B3B3B;
-    margin-top: 300px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
 }
-.catone{
+
+.fiex-root{
     width: 100%;
-    height: 430px;
-    /* background-color: #dd3d3d; */
-    margin-top: 100px;
-    display: flex;
-   justify-content: center;
-
-
-}
-
-.qaws{
-    width: fit-content;
-    height: fit-content;
-    margin: auto;
-    margin: 20px;
-    text-align: center;
-    
-    
-
-    
-  
-}
-
-.iiww{
-
-    width: fit-content;
-    height: fit-content;
-
-
-}
-.iiww img{
-    width: 100%;
-
-}
-
-.ddwe{
-    width: 100%;
-    height: 90px;
-    background-color: #5F4343;
-    position: relative;
-    top: -20px;
-   
-}
-.ddwe a{
-   position: relative;
-   bottom: -30px;
-   text-decoration: none;
-   outline:none;
-   color: #FFFFFF;
-   font-size: 20px;
-
-} 
-
-.catonewww{
-    width: 100%;
-    height: 430px;
-    /* background-color: #dd3d3d; */
     margin-top: 30px;
-    display: flex;
-   justify-content: center;
-
+ 
 }
+
+.fddo img{
+    display: inline-block;
+    margin: 20px;
+}
+.sold-tyr{
+    display: flex;
+    justify-content: center;
+}
+.fddoe{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+}
+
 .ff-za img{
     display: inline-block;
     margin: 0px 10px;

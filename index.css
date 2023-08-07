@@ -156,12 +156,6 @@ body {
     display: flex;
 }
 
-.flooe{
-    width: 1200px;
-    height: 10px;
-}
-
-
 
 .booking{
 width: 580px;
@@ -428,6 +422,7 @@ font-weight:bold;
 width: 100%;
 position: relative;
 margin-top: 20px;
+padding-bottom: 30px;
 }
 .flex-secito::before{
     content: '';
@@ -436,7 +431,7 @@ margin-top: 20px;
     right: 0;
     z-index: -1;
     width: 100%;
-    height: 800px;
+    height: 100%;
     background-color: #5F4343;
     
 }
@@ -465,29 +460,26 @@ margin-top: 20px;
   color: #FFFFFF;
   font-size: 2.0em;
 }
-
+.vvvocontainer {
+    padding-left: 190px;
+}
 .howq{
-    margin-left: 190px;
    margin-top: 50px;
    color: #FFFFFF;
 }
 .flex-fkw{
-    margin-left: 190px;
     margin-top: 30px;
     color: #FFFFFF;
 }
 .god-flee p{
-    margin-left: 190px;
     margin-top: 10px;
     color: #FFFFFF;
 }
 .mom-fee{
-    margin-left: 190px;
     margin-top: 30px;
     color: #FFFFFF;
 }
 .mn-89{
-    margin-left: 190px;
     margin-top: 30px;
     color: #FFFFFF;
 }
@@ -680,5 +672,59 @@ margin: 0px 10px;
     width: 100%;
     height: 500px;
     background-color: #3B3B3B;
+    
+}
+@media screen and (max-width: 1200px) {
+    .were {
+        display: none;
+    }
+    .flex-dog {
+        width: 100%;
+    }
+    .x-20 {
+        width: 90%;
+    }
+    .flex-weme,
+    .vloo-11,
+    .flex-imge {
+        width: 100%;
+    }
+    .gold-flex,
+    .doss-02,
+    .psao-weaq {
+        min-width: 100%;
+    }
+    .doss-02 {
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+    .sold-302 {
+        margin: auto;
+    }
+    .flex-imga {
+        margin-left: 0;
+        justify-content: center;
+    }
+    .vvvocontainer {
+        padding: 0 30px;
+    }
+    .gold-flex::before {
+        width: 75%;
+    }
+    .flex-jjc {
+        margin: auto;
+    }
+    .flex-imge {
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .gold-flex::before {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 375px) {
     
 }
