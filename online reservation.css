@@ -82,7 +82,7 @@ body {
 }
 
 .flex-eeak{
-    width: 1310px;
+    width: 1200px;
     height: 1000px;
     background-color: #5F4343;
     margin-left: auto;
@@ -104,7 +104,7 @@ body {
     margin-top: 20px;
 }
 .gold-33 p{
-    font-size: 15px;
+    font-size: 13px;
     color: #D9D9D9;
     font-weight:bold;
 }
@@ -119,6 +119,7 @@ body {
 .sold-3211 h1{
     font-size: 25px;
     color: #D9D9D9;
+    
     /* font-weight:bold; */
 }
 
@@ -180,10 +181,136 @@ body {
     font-weight:bold;
 }
 .skdde{
-    margin-bottom: 520px;
+    margin-bottom: 20px;
    margin-left: 150px;
 }
-.kooa{
-    width: 120px;
-    height: 80px;
+.skdd{
+    margin-bottom: 20px;
+   margin-left: 150px;
 }
+.skddo{
+    margin-bottom: 20px;
+    margin-left: 150px;
+ }
+
+
+.kooa{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+    margin: 5px;
+
+}
+
+.kooa p{
+    font-size: 13px;
+    color: #3B3B3B;
+    font-weight:bold;
+}
+.kooa:hover{
+   cursor: pointer;
+   border: 1px solid#3B3B3B;
+}
+
+.vols{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+    margin: 5px;
+}
+.vols p{
+    font-size: 13px;
+    color: #3B3B3B;
+    font-weight:bold;
+}
+.vols:hover{
+    cursor: pointer;
+    border: 1px solid#3B3B3B;
+}
+.zooz{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+    margin: 5px;
+}
+.zooz p{
+    font-size: 13px;
+    color: #3B3B3B;
+    font-weight:bold;
+}
+.zooz:hover{
+    cursor: pointer;
+    border: 1px solid#3B3B3B;
+}
+.zooc{
+    width: 190px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+    margin-left: 180px;
+    
+}
+.zooc p{
+    font-size: 13px;
+    color: #3B3B3B;
+    font-weight:bold;  
+}
+.zooc:hover{
+    cursor: pointer;
+    border: 1px solid#3B3B3B;
+}
+.ff-za img{
+    display: inline-block;
+    margin: 0px 10px;
+    
+    }
+    .fkd-33{
+        display: inline-block;
+        width: fit-content;
+        position: relative;
+        margin-top: -20px;
+        
+    }
+    .ff-za{
+        /* margin-top: 45px;
+        margin-right: 50px; */
+        position: absolute;
+        bottom: -20px;;
+        
+    }
+    .dos-12{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        width: 700px;
+        line-height: 8;
+       
+    }
+    .end-what{
+        position: relative;
+        padding: 40px 0;
+    }
+    .end-what::before{
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0px;
+        z-index: -1;
+        width: 30%;
+        height: 100%;
+        background-color: lightgray;
+        
+    }
+    .emd{
+        width: 100%;
+        height: 500px;
+        background-color: #3B3B3B;
+        
+    }
