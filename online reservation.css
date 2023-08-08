@@ -82,7 +82,7 @@ body {
 }
 
 .flex-eeak{
-    width: 1200px;
+    width: 1150px;
     height: 1000px;
     background-color: #5F4343;
     margin-left: auto;
@@ -253,18 +253,18 @@ body {
     height: 40px;
     border-radius: 10px;
     border: none;
-    background-color: #D9D9D9;
+    background-color: #3B3B3B;
     margin-left: 180px;
     
 }
 .zooc p{
     font-size: 13px;
-    color: #3B3B3B;
+    color: #D9D9D9;
     font-weight:bold;  
 }
 .zooc:hover{
     cursor: pointer;
-    border: 1px solid#3B3B3B;
+    border: 1px solid#000000;
 }
 .ff-za img{
     display: inline-block;
