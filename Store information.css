@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background: lightgray;
+    background: #C8C8C8;
     font-family: 'Montserrat', 'Noto Serif TC', serif;
     font-size: 14px;
     line-height: 2;
@@ -76,4 +76,219 @@ body {
     text-decoration: none;
     font-weight: 900;
     
+}
+.gold-ee{
+    width: 100%;
+}
+.sold-ee{
+text-align: center;
+}
+.flex-one{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-right: 55px;
+    
+}
+.flex-pop{
+    margin-top: 320px;
+   
+}
+.dole-ppp{
+    margin-left: 340px;
+}
+.jopop{
+    margin-right: 340px;
+}
+.skee-aa{
+    display: flex;
+
+}
+
+.alex-22{
+  display: flex;
+  margin-top: 20px;
+}
+.dod-koop{
+    width: 1px;
+    height: 120px;
+    background-color: #000000;
+   
+}
+.alex-exe{
+    display: flex;
+    /* margin-right:180px; */
+}
+.vlex-www{
+    display: flex;
+}
+.vlex-www{
+    margin-top: 40px;
+}
+
+.sold-ee{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.sold-ee h1{
+    font-size: 45px;
+    color: #3B3B3B;
+    font-weight:bold;
+}
+.sold-ee p{
+    font-size: 25px;
+    color: #000;
+    font-weight:bold;
+}
+.gole-22 p{
+    font-size: 20px;
+    color: #000;
+    font-weight:bold;
+    padding: 0px 10px;
+  
+}
+.alex-33 p{
+    font-size: 15px;
+    color: #000;
+    font-weight:bold;
+    padding: 0px 10px;
+}
+.flex-dod p{
+    font-size: 20px;
+    color: #000;
+    font-weight:bold;
+    padding: 0px 10px;
+    margin-bottom: 30px;
+}
+.sold-eelk{
+    font-size: 15px;
+    color: #000;
+    font-weight:bold;
+    padding: 0px 10px; 
+    margin-top: 5px;
+}
+.hook p{
+    font-size: 20px;
+    color: #000;
+    font-weight:bold;
+    padding: 0px 10px;
+    
+}
+.apdw p{
+    color: #000;
+    font-weight:bold;
+    padding: 0px 10px; 
+    margin-top: 5px;
+}
+.kk-ppp p{
+    font-size: 20px;
+    color: #000;
+    font-weight:bold;
+    padding: 0px 10px;
+}
+.sole-gold p{
+    font-size: 15px;
+    color: #000;
+    font-weight:bold;
+    padding: 0px 10px; 
+    margin-top: 5px;
+}
+.fiex-jook{
+    width: 100%;
+}
+.solf{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    margin-right: 190px;
+}
+.alex-flex{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 200px;
+
+}
+.gole-33 a{
+text-decoration: none;
+font-size: 20px;
+color: #3B3B3B;
+font-weight:bold;
+
+}
+.gole-33{
+    margin-bottom: 30px;
+}
+.look-eee{
+    width: 154px;
+    height: 1px;
+    background-color: #000000;
+}
+.goww{
+    margin-top: 30px;
+    padding: 20px 40px;
+    background-color: #565656;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    color: #F5F5F5;
+    font-weight:bold;
+   
+}
+
+.goww:hover{
+    cursor: pointer;
+    border: 1px solid#0b0000;
+}
+.aooe a{
+    padding: 29px 22px; 
+    background-color: #DEDEDE;
+    border-radius: 99em;
+    /* margin: 20px; */
+    text-decoration: none;
+
+}
+.body-root{
+    width: 100%;
+
+}
+.sppw{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-right: 90px;
+}
+.aooe img{
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: relative;
+    left:-1px;
+    top: 5px;
+}
+.dodoppp{
+   margin-right: 30px;
+}
+.aooe a{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.aooe a :hover{
+    cursor: pointer;
+    border: 0.5px solid#DEDEDE;
+}
+.dodoppp p{
+    font-size: 15px;
+    color: #3B3B3B;
+    font-weight:bold;
+}
+.dod-poole{
+    width: 1020px;
+    height: 1px;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
 }
