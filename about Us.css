@@ -129,6 +129,9 @@ body {
     text-align: center;
     
 }
+.gold-443 a:hover{
+color: #9A6E6E;
+}
 .gold-443 p{
     color:#3B3B3B;
 }
@@ -340,7 +343,7 @@ body {
     }
     .emd{
         width: 100%;
-        height: 500px;
+        height: 200px;
         background-color: #3B3B3B;
         
     }
@@ -395,7 +398,7 @@ body {
     }
     #ikkw{
   position: relative;
-  left: 900px;
+  left: 950px;
   
 
     }

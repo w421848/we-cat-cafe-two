@@ -1,89 +1,29 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    background: lightgray;
-    font-family: 'Montserrat', 'Noto Serif TC', serif;
-    font-size: 14px;
-    line-height: 2;
-    letter-spacing: 1.4px;
-}
-.labek{
-    display: flex;
-    margin: auto;
-    max-width: 1200px;
-    /* height: 300px */
-    position: relative;
-    justify-content: center;
-    justify-content: space-around
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .pics{ position:relative;}
+.pics img{ position:absolute;
+  /* 淡出淡入效果2秒 */
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+ }
+ .pics img:last-child:hover{
+   /* 滑入時第一張透明度設0 */
+    opacity:0;}
+  </style>
+</head>
+<body>
+  <div class="pics">
+    <img src="./img/Group 172 (1).png" alt="滑入顯示的圖片">
+      <img src="./img/Group 173 (1).png" alt="原本顯示的圖片">
+      
 
-
-.connecttwo div{
-    width:70px;
-    height:70px;
-    background:#000000;
-    border-radius: 99em;
-    display: inline-block;
-    margin: 10px;
-    position: relative;
-    bottom: -20px;
-   
-    
-}
-.connecttwo img{
-    margin-top: 28%;
-    margin-left: 21px;
-    width: fit-content;
-    height: fit-content;
-}
-.logo{
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-    margin-left: -80px;
-}
-.connect {
-    width: fit-content;
-    height: fit-content;
-    margin-top: 50px;
-}
-.connect a{
-    margin: 10px;
-    /* font-family: 'Monoton', cursive;
-    font-family: 'Noto Serif TC', serif; */
-    color: #3B3B3B;
-    /* font-size: 14px ;
-    letter-spacing: 0.3em; */
-    text-decoration: none;
-    font-weight: 900;
-    
-}
-.min-fled{
-    width: 100%;
-    margin-top: 80px;
-}
-.flex-god{
-    max-width: 1200px;
-    margin: auto;
-}
-.flex-doww{
-    margin-top: 50px;
-    letter-spacing:3px; 
-}
-
-.god-ewq{
-    display: block;
-    margin-top: 10px;
-}
-.god-ewq h1{
-    margin-bottom: 10px;
-    color: #9A6E6E;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-.god-ewq p{
-
-}
+  </div>
+</body>
+</html>
