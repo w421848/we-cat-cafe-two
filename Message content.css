@@ -77,6 +77,10 @@ body {
     font-weight: 900;
     
 }
+.connect a :hover{
+    border-bottom:1px #D9D9D9 solid; padding-bottom:5px; 
+}
+
 .flex-tta{
     width: 100%;
  
