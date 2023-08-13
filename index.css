@@ -982,5 +982,20 @@ element.style {
         margin-left: 305px;
         margin-top: 125px;
     }
-
+    .fled-wed a {
+    display: flex;
+    margin-left: auto;
+    margin-right: 238px;
+    margin-top: 15px;
+    width: 120px;
+    padding: 10px 20px;
+    background-color: #A0D65A;
+    border-radius: 22px;
+    text-decoration: none;
+    color: #3B3B3B;
+    font-weight: bold;
+}
+.titka p{
+    color: #3B3B3B;
+}
         }
